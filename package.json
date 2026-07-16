@@ -3,7 +3,7 @@
   "private": true,
   "author": "Unisoftwares Inc",
   "description": "This product made by Unisoftwares",
-  "version": "2.0.0",
+  "version": "2.0.2",
   "type": "module",
   "main": "electron-dist/main.cjs",
   "scripts": {
@@ -20,7 +20,7 @@
     "preview": "vite preview"
   },
   "build": {
-    "appId": "com.myaio.voice",
+    "appId": "com.myaiobyoc.voice",
     "productName": "MY AIO (Beta)",
     "directories": {
       "output": "release"

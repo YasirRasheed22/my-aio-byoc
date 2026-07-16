@@ -11,7 +11,7 @@
 import { useEffect, useRef, useState } from "react";
 import { Users, User, ArrowRightLeft, UserMinus, Pause, Play } from "lucide-react";
 
-const API_BASE = "https://api.aiocaller.com";
+const API_BASE = "https://api.ringnex.co";
 
 /* ─── theme ─── */
 function useLocalTheme(): "dark" | "light" {

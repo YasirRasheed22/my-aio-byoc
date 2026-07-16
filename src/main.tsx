@@ -4,7 +4,7 @@ import {HashRouter} from 'react-router-dom'
 import App from './App.tsx'
 import "bootstrap/dist/css/bootstrap.min.css";
 import './index.css'
-export const API_URL = "https://api.aiocaller.com";
+export const API_URL = "https://api.ringnex.co";
 
 export function formatToCurrency(amount, currency = 'USD', locale = 'en-US') {
     // Handle invalid/undefined input

@@ -2,7 +2,7 @@
 import axios from "axios";
 
 const api = axios.create({
-  baseURL: "https://api.aiocaller.com",
+  baseURL: "https://api.ringnex.co",
   // ✅ REQUIRED for ngrok free-tier tunnels: without this header, ngrok serves
   // an HTML browser-warning page (status 200, no CORS headers)
   // instead of forwarding to the backend, which causes the CORS error

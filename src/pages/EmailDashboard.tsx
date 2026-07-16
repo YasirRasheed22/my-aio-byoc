@@ -73,7 +73,7 @@ export default function EmailDashboard() {
   // Socket setup (same)
   useEffect(() => {
     if (!token) return;
-    socketRef.current = io("https://api.aiocaller.com", {
+    socketRef.current = io("https://api.ringnex.co", {
       auth: { token },
       transports: ["websocket"],
     });
