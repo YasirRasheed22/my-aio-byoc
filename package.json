@@ -21,7 +21,7 @@
   },
   "build": {
     "appId": "com.myaiobyoc.voice",
-    "productName": "MY AIO (Beta)",
+    "productName": "my-aio-beta",
     "directories": {
       "output": "release"
     },
@@ -81,7 +81,7 @@
           ]
         }
       ],
-      "artifactName": "${productName}-Setup-${version}.${ext}",
+      "artifactName": "${productName}-setup-${version}.${ext}",
       "requestedExecutionLevel": "asInvoker"
     },
     "nsis": {
