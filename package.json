@@ -3,7 +3,7 @@
   "private": true,
   "author": "Unisoftwares Inc",
   "description": "This product made by Unisoftwares",
-  "version": "2.0.3",
+  "version": "2.0.4",
   "type": "module",
   "main": "electron-dist/main.cjs",
   "scripts": {
